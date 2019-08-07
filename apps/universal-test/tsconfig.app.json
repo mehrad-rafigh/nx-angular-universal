@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/apps/universal-test",
+    "types": []
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["src/test-setup.ts", 
+    "**/*.spec.ts",
+    "src/main.server.ts",
+    "server.ts",]
+}

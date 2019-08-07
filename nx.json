@@ -1,0 +1,18 @@
+{
+  "npmScope": "nx-angular-universal",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "universal-test-e2e": {
+      "tags": []
+    },
+    "universal-test": {
+      "tags": []
+    }
+  }
+}
